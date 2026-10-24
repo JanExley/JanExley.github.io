@@ -154,6 +154,8 @@ h2 em { color: var(--accent); font-style: normal; }
 .project-feature { grid-column: 1 / -1; display: grid; grid-template-columns: 1.08fr .92fr; gap: 35px; align-items: center; padding-bottom: 42px; border-bottom: 1px solid var(--line); }
 .project-visual { display: block; position: relative; height: 310px; overflow: hidden; background: #10243c; border: 1px solid #304b6b; transition: border-color .2s, transform .3s; }
 .project-visual:hover { border-color: var(--accent); transform: translateY(-3px); }
+.tomography-cover-link { background: #fff; }
+.tomography-cover { position: absolute; inset: -10%; display: block; width: 120%; height: 120%; border: 0; pointer-events: none; }
 .visual-top, .visual-bottom { position: absolute; z-index: 2; left: 18px; right: 18px; display: flex; justify-content: space-between; font: 9px var(--mono); letter-spacing: .08em; color: #b2c9e3; }
 .visual-top { top: 17px; }.visual-top span:last-child { color: var(--accent); font-size: 15px; }.visual-bottom { bottom: 16px; color: #8ba5c2; }
 .visual-robot { background: radial-gradient(ellipse at center, #1c4269, #0c2038 65%); }
