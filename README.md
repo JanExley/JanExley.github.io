@@ -21,6 +21,8 @@ Open `index.html` in a browser, or use the Live Server extension in Visual Studi
 4. Under Build and deployment, select **Deploy from a branch**, choose `main` and `/ (root)`, then save.
 5. Wait for deployment and visit `https://jan-exley.github.io/`.
 
+The GitHub Actions workflow updates the footer's “Last Updated” date after pushes to `main`. For the workflow to push its date update, set **Settings → Actions → General → Workflow permissions** to **Read and write permissions**.
+
 ## Before submitting — personalisation checklist
 
 - [ ] Check that the LinkedIn profile URL and contact email are the ones you want to publish.
